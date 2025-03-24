@@ -695,6 +695,22 @@ input, select, textarea {
 			}
 
 	/* ///////////////////////// */
+
+	.pdf-download-button {
+		display: inline-block; /* Make it a block-level element but inline */
+		padding: 10px 20px; /* Add padding for spacing */
+		background-color: #096ad2; /* Blue background color */
+		color: white; /* White text color */
+		text-decoration: none; /* Remove underline from link */
+		border-radius: 10px; /* Add rounded corners */
+		font-weight: bold; /* Make the text bold */
+		transition: background-color 0.3s ease; /* Smooth background color transition */
+	}
+	
+	.pdf-download-button:hover {
+		background-color: #043365; /* Darker blue on hover */
+	}
+	
 		.days {
 				width: 55%;
 			}
