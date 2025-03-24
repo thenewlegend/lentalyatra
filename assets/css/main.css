@@ -706,6 +706,13 @@ input, select, textarea {
 
 		/* ///////////////////////// */
 
+		embed[src$=".pdf"] {
+			border: 1px solid #e0e0e0; /* Light gray border */
+			border-radius: 20px; /* Rounded corners */
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+			overflow: hidden; /* Ensure shadow doesn't overflow rounded corners */
+		  } 
+		
 		audio {
 			border-radius: 5px; /* Slightly rounded corners */
 			padding: 5px; /* Add some padding around the controls */
