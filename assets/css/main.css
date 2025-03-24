@@ -694,8 +694,9 @@ input, select, textarea {
 				width: 100%;
 			}
 
+	/* ///////////////////////// */
 		.days {
-				width: 70%;
+				width: 55%;
 			}
 
 		.each-day{
@@ -704,7 +705,7 @@ input, select, textarea {
 			align-items: center;
 		}
 
-		/* ///////////////////////// */
+
 
 		embed[src$=".pdf"] {
 			border: 1px solid #e0e0e0; /* Light gray border */
